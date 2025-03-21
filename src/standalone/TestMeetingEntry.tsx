@@ -4,7 +4,7 @@ import { MeetingConsumer, MeetingProvider } from "@videosdk.live/react-sdk";
 import { generateToken } from "../utils/videosdk.js"; // Import your existing generateToken method
 import { MeetingEntryModal } from "./MeetingEntryModal";
 import { WelcomeMessage } from "./WelcomeMessage";
-import MeetingRoom from "./MeetingRoom";
+import {MeetingRoom} from "./MeetingRoom";
 import { Meeting } from "@videosdk.live/react-sdk/dist/types/meeting.js";
 
 export const TestMeetingEntry: React.FC = () => {
